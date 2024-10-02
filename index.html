@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>E-Book</title>
+    <style>
+      .about {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.imageABT {
+    max-width: 100%;
+    height: auto;
+    margin-right: 20px;
+}
+
+.textABT {
+    flex: 1;
+}
+.upcoming {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.imageup {
+    max-width: 100%;
+    height: auto;
+    margin-right: 20px;
+}
+
+.textup {
+    flex: 1;
+}
+.ebook {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.textebook {
+    flex: 1;
+    margin-right: 20px; /* Add space between text and image */
+}
+
+.imageeb {
+    max-width: 200px;
+    height: auto;
+}
+.contact {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.textcnt {
+    flex: 1;
+    margin-right: 20px; /* Add space between text and image */
+}
+
+.imagecnt {
+    max-width: 100%;
+    height: auto;
+}
+
+
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__logo"><a href="#">E-Book</a></div>
+      <ul class="nav__links">
+        <li class="link"><a href="index.html">Home</a></li>
+        <li class="link"><a  onclick="scrolltoabout()">About Us</a></li>
+        <li class="link"><a onclick="scrolltoebook()">E-Book</a></li>
+        <li class="link"><a onclick="scrolltoupcoming()">Upcoming</a></li>
+        <li class="link"><a href="https://en.wikipedia.org/wiki/Ebook">Blog</a></li>
+        <li class="link"><a onclick="scrolltocontact()" class="nav__btn">Contact</a></li>
+      </ul>
+    </nav>
+    <section class="container">
+      <div class="content__container">
+        <h1>
+          Best E-Book<br />
+          <span class="heading__1">Reading Platform</span><br />
+          <span class="heading__2">in The World</span>
+        </h1>
+        <h2>Unlock Your Potential: The Ultimate Guide to Personal Growth
+        </h2>
+        <p>
+            
+          Welcome to E-Book Reading , your ultimate destination for digital reading! Our platform is designed to provide book lovers with an immersive and convenient way to discover, read, and enjoy e-books across various genres. Whether you’re a passionate reader, a busy professional, or a student looking to expand your knowledge, we have something for everyone.
+        </p>
+        <form>
+          <input type="text" placeholder="What do you want to learn" />
+          <button type="submit">Search E-Book</button>
+        </form>
+      </div>
+      <div class="image__container">
+        <img src="img/head1.jpg" alt="header" />
+        <img src="img/head2.jpg" alt="header" />
+        <div class="image__content">
+          <ul>
+            <li>A book is a dream that you hold in your hand.</li>
+            
+          </ul>
+        </div>
+      </div>
+     
+    </section>
+    <div class="about" id="about">
+      <img src="img/image1.jpg" alt="Placeholder Image" class="imageABT">
+      <div class="textABT">
+          <h2>About Our E-Book Reading Platform</h2>
+          <p>At E-Book Haven, our mission is to promote the joy of reading in a digital format. We aim to make literature accessible to everyone, offering a vast library of e-books that can be read anytime, anywhere, on any device. We believe that stories have the power to inspire, educate, and entertain, and we’re dedicated to connecting readers with the books they love.</p>
+          <h3>What We Offer</h3>
+          <ul>
+            <li>Extensive Library: Explore a diverse collection of e-books, from bestsellers and classic literature to niche genres and self-help guides. Our library is continually updated to include the latest releases and timeless favorites.</li>
+            <li>User-Friendly Interface: Enjoy a seamless reading experience with our intuitive platform, designed for easy navigation and personalized recommendations.</li>
+            <li>Interactive Features: Take advantage of features like adjustable text sizes, night mode, bookmarks, and highlighting tools, making your reading experience tailored to your preferences.</li>
+          </ul>
+      </div>
+  </div>
+  <div class="ebook" id="ebook">
+    <div class="textebook">
+        <h2>Download Your E-Book</h2>
+        <h3>Unlock the Knowledge You Need to Succeed!</h3>
+        <p>Welcome to the download page for E-Book Title. This essential guide is designed to provide you with valuable insights and practical strategies to enhance your understanding of E-Book.</p>
+        <br>
+        <ul><li>
+          Key Concepts: Dive into the foundational ideas that shape
+        </li>
+        <li>Practical Tips: Gain actionable strategies that you can implement immediately.</li>
+        <li>Real-World Examples: Learn from case studies that illustrate how to apply these principles in your own life or career.</li>
+        <li>Expert Advice: Benefit from insights shared by leading experts in the field.</li>
+        </ul>
+        <br><center><a href="demo.html" class="download">Download Now</a></center>
+        
+    </div>
+    <img src="img/image2.jfif" alt="Placeholder Image" class="imagerb">
+</div>
+<div class="upcoming" id="upcoming">
+  <img src="img/image3.jpg" alt="Placeholder Image" class="imageup">
+  <div class="textup">
+      <h2>Upcomig E-Book</h2>
+      <h3>Believe Achieve Succees (Your path to success)</h3>
+      <p>"Believe, Achieve, Succeed" is an empowering guide that inspires readers to harness the power of belief and determination to reach their goals. This book serves as a roadmap, providing practical strategies and motivational insights to help individuals transform their aspirations into reality.</p>
+      <br>
+      <ul>
+        <li>The book emphasizes the importance of self-belief as the foundation for success. It explores how positive thinking and a growth mindset can help overcome obstacles and foster resilience</li>
+        <li>Readers are guided through the process of setting specific, measurable, achievable, relevant, and time-bound (SMART) goals. The book illustrates how clear objectives can serve as a compass on the journey to success.</li>
+        <li>Action is the bridge between goals and achievement. The book outlines actionable steps to help readers break down their goals into manageable tasks, encouraging consistent effort and commitment.</li>
+      </ul>
+      <br>
+      <marquee style="color: #5c48ee;font-weight: bold;"> Exciting Announcement: Book Launch Coming Soon!
+        🌟 Get Ready for "Believe, Achieve, Succeed: Your Path to Success"! 🌟</marquee>
+      
+  </div>
+</div>
+<div class="contact" id="contact">
+  <div class="textcnt">
+      <h2>Get in Touch with Us</h2><br>
+      <p>We’d love to hear from you! Whether you have a question, feedback, or need assistance, our team is here to help. You can reach us through the following methods:</p>
+
+      <br>
+      <ul><li>
+        Email: admin@ebook.com
+      </li>
+      <li>Phone: +91 04172299058</li>
+      <li>Address: 123 Main Street, City, Country</li>
+      
+    </ul>
+    <br>
+    <p>For quick responses, feel free to use our contact form below. We aim to respond to all inquiries within 24 hours.Thank you for reaching out to us. We look forward to assisting you!</p>
+  </div>
+  <img src="img/image4.avif" alt="Placeholder Image" class="imagecnt">
+</div>
+<div class="bottom" style="height: 30px;text-align: center;color: white;font-weight: bold;width: 100%;background-color: #5c48ee;">
+  <p>Designed BY @logesh_purushoth      @  copyrights@2024</p>
+</div>
+    <script>
+        function scrolltoabout() {
+            document.getElementById('about').scrollIntoView({ behavior: 'smooth' });
+        }
+        function scrolltoebook() {
+            document.getElementById('ebook').scrollIntoView({ behavior: 'smooth' });
+        }
+        function scrolltoupcoming() {
+            document.getElementById('upcoming').scrollIntoView({ behavior: 'smooth' });
+        }
+        function scrolltocontact() {
+            document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+  </body>
+</html>
